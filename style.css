@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6de6a9;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+.heading h3{
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.content1, .content2{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.content1 .content1-top, .content2 .content2-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content1-top i, .content2-top i{
+    font-size: 25px;
+}
+.content1-top input[type="radio"], .content2-top input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.content1-top input[type="radio"]:checked, .content2-top input[type="radio"]:checked {
+    background-color: #6de6a9;
+}
+.content1 span, .content2 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn button{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #6de6a9;
+    color: #808080d5;
+}
+.logdiv{
+    display: flex;
+    justify-content: center;
+}
+.logdiv span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.logdiv span a{
+    color: #6de6a9;
+    font-weight: 500;
+}
